@@ -1,0 +1,500 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="180dp"
+  android:background="@color/primer"
+    android:padding="20dp"
+    >
+    <ImageView
+        android:id="@+id/judul"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_centerVertical="true"
+        android:src="@drawable/ic_person">
+
+    </ImageView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dian Rosa Pratama"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="10dp"
+        android:layout_toEndOf="@id/judul"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:textColor="@color/white"
+        android:id="@+id/fullname"
+        >
+
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:text="AKB 1 - 10118043"
+        android:layout_below="@id/fullname"
+        android:layout_marginStart="10dp"
+        android:layout_toEndOf="@id/judul"
+        android:textSize="20sp"
+        android:textColor="@color/sekunder">
+
+
+    </TextView>
+</RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:padding="10dp"
+            android:orientation="vertical"
+            android:background="@color/sekunder"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginBottom="16dp"
+            android:id="@+id/tabnama"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nama"
+                android:textSize="20sp"
+                android:id="@+id/nama"
+                android:textColor="@color/primer"
+                android:layout_marginTop="5dp"
+                android:layout_centerHorizontal="true"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Dian Rosa Pratama"
+                android:textColor="@color/white"
+
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/nama"/>
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:padding="10dp"
+            android:orientation="vertical"
+            android:background="@color/sekunder"
+
+            android:layout_marginRight="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginBottom="16dp"
+            android:id="@+id/tabnim"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="NIM"
+                android:textSize="20sp"
+                android:id="@+id/nim"
+                android:textColor="@color/primer"
+                android:layout_marginTop="5dp"
+                android:layout_centerHorizontal="true"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="10118043"
+                android:textColor="@color/white"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/nim"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:padding="10dp"
+            android:orientation="vertical"
+            android:background="@color/sekunder"
+
+            android:layout_marginRight="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginBottom="16dp"
+            android:id="@+id/tabfoto"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Foto Profil"
+                android:textSize="20sp"
+                android:id="@+id/foto"
+                android:textColor="@color/primer"
+                android:layout_marginTop="5dp"
+                android:layout_centerHorizontal="true"
+                android:textStyle="bold"
+                />
+        <ImageView
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:src="@drawable/ic_person"
+            android:layout_below="@id/foto"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="8dp"/>
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:padding="10dp"
+            android:orientation="vertical"
+            android:background="@color/sekunder"
+
+            android:layout_marginRight="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginBottom="16dp"
+            android:id="@+id/tabgender"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Jenis Kelamin"
+                android:textSize="20sp"
+                android:id="@+id/gender"
+                android:textColor="@color/primer"
+                android:layout_marginTop="5dp"
+                android:layout_centerHorizontal="true"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Laki - laki"
+                android:textColor="@color/white"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/gender"/>
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:padding="10dp"
+            android:orientation="vertical"
+            android:background="@color/sekunder"
+
+            android:layout_marginRight="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginBottom="16dp"
+            android:id="@+id/tabttl"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tempat - Tanggal Lahir"
+                android:textSize="20sp"
+                android:id="@+id/ttl"
+                android:textColor="@color/primer"
+                android:layout_marginTop="5dp"
+                android:layout_centerHorizontal="true"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ciamis - 10 November 2000"
+                android:textColor="@color/white"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/ttl"/>
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:padding="10dp"
+            android:orientation="vertical"
+            android:background="@color/sekunder"
+
+            android:layout_marginRight="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginBottom="16dp"
+            android:id="@+id/tabalamat"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Alamat"
+                android:textSize="20sp"
+                android:id="@+id/alamat"
+                android:textColor="@color/primer"
+                android:layout_marginTop="5dp"
+                android:layout_centerHorizontal="true"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bandung - Kopo jaya 3"
+                android:textColor="@color/white"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/alamat"/>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:padding="10dp"
+            android:orientation="vertical"
+            android:background="@color/sekunder"
+
+            android:layout_marginRight="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginBottom="16dp"
+            android:id="@+id/tabgoldar"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Golongan Darah"
+                android:textSize="20sp"
+                android:id="@+id/goldar"
+                android:textColor="@color/primer"
+                android:layout_marginTop="5dp"
+                android:layout_centerHorizontal="true"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="B"
+                android:textColor="@color/white"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/goldar"/>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:padding="10dp"
+            android:orientation="vertical"
+            android:background="@color/sekunder"
+
+            android:layout_marginRight="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginBottom="16dp"
+            android:id="@+id/tabmakanan"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Makanan Kesukaan"
+                android:textSize="20sp"
+                android:id="@+id/makanan"
+                android:textColor="@color/primer"
+                android:layout_marginTop="5dp"
+                android:layout_centerHorizontal="true"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nasi Goreng"
+                android:textColor="@color/white"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/makanan"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:padding="10dp"
+            android:orientation="vertical"
+            android:background="@color/sekunder"
+
+            android:layout_marginRight="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginBottom="16dp"
+            android:id="@+id/tabminuman"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Minuman Kesukaan"
+                android:textSize="20sp"
+                android:id="@+id/mnuman"
+                android:textColor="@color/primer"
+                android:layout_marginTop="5dp"
+                android:layout_centerHorizontal="true"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Air Kelapa"
+                android:textColor="@color/white"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/mnuman"/>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:padding="10dp"
+            android:orientation="vertical"
+            android:background="@color/sekunder"
+
+            android:layout_marginRight="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginBottom="16dp"
+            android:id="@+id/tabhobi"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hobi"
+                android:textSize="20sp"
+                android:id="@+id/hobi"
+                android:textColor="@color/primer"
+                android:layout_marginTop="5dp"
+                android:layout_centerHorizontal="true"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Buat Kontent Youtube"
+                android:textColor="@color/white"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/hobi"/>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:padding="10dp"
+            android:orientation="vertical"
+            android:background="@color/sekunder"
+
+            android:layout_marginRight="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginBottom="16dp"
+            android:id="@+id/tablagu"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lagu Favorit"
+                android:textSize="20sp"
+                android:id="@+id/lagu"
+                android:textColor="@color/primer"
+                android:layout_marginTop="5dp"
+                android:layout_centerHorizontal="true"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bondan Prakoso fade 2 black - Generasiku"
+                android:textColor="@color/white"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/lagu"/>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:padding="10dp"
+            android:orientation="vertical"
+            android:background="@color/sekunder"
+
+            android:layout_marginRight="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginBottom="16dp"
+            android:id="@+id/tabfilm"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Film Favorite"
+                android:textSize="20sp"
+                android:id="@+id/film"
+                android:textColor="@color/primer"
+                android:layout_marginTop="5dp"
+                android:layout_centerHorizontal="true"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Jumanji"
+                android:textColor="@color/white"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/film"/>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:padding="10dp"
+            android:orientation="vertical"
+            android:background="@color/sekunder"
+
+            android:layout_marginRight="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginBottom="16dp"
+            android:id="@+id/tabpekerjaan"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pekerjaan yang diinginkan setelah kuliah"
+                android:textSize="20sp"
+                android:id="@+id/pekerjaan"
+                android:textColor="@color/primer"
+                android:layout_marginTop="5dp"
+                android:layout_centerHorizontal="true"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Manajer di perusahaan ternama"
+                android:textColor="@color/white"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/pekerjaan"/>
+        </RelativeLayout>
+    </LinearLayout>
+
+
+
+</ScrollView>
